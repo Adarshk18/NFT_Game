@@ -1,11 +1,13 @@
 import dotenv from 'dotenv';
-import '@nomiclabs/hardhat-ethers';
+// import '@nomiclabs/hardhat-ethers';
+import "@nomicfoundation/hardhat-ethers";
+
 
 dotenv.config();
 
 export default {
   solidity: {
-    version: '0.8.16',
+    version: '0.8.20',
     settings: {
       viaIR: true,
       optimizer: {
